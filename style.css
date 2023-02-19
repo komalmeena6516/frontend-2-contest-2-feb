@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+    color: #ffffff;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+.container {
+    margin: 35px 32px;
+    max-width: 100%;
+}
+
+.container h1 {
+    margin-top: 20px;
+    text-align: left;
+}
+
+form {
+    margin: 30px 0px;
+}
+
+label {
+    display: inline;
+}
+
+input[type="text"] {
+    width: 39vw;
+    height: 34px;
+    display: inline;
+    padding: 10px;
+
+    margin-bottom: 37px;
+    margin-top: 5px;
+    background-color: #1e1e1e;
+    /* border-radius: 5px; */
+    border: 1px solid #ccc;
+
+}
+
+form label {
+    margin-right: 30px;
+}
+form label[for="issued-to"]{
+    margin-right: 44px;
+}
+
+form button{
+    color: #1e1e1e;
+    width: 50vw;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #fff;
+    /* color: black; */
+    font-weight: bolder;
+    font-size: 15px ;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+  }
+
+  th {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  td {
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: lighter;
+  }
+
+  td:first-child {
+    border-left: 1px solid white;
+  }
+  
+  tr:last-child {
+    border-bottom: 1px solid white;
+  }
+  td {
+    border-right: 1px solid white;
+
+  } 
+  td:nth-child(5) {
+    border-right: none;
+  }
+  .status {
+    color: red;
+  }
+  
+  .status.returned {
+    color: #9fff24;
+  }
+  
+  .icon {
+    color: #fff;
+    cursor: pointer;
+  }
